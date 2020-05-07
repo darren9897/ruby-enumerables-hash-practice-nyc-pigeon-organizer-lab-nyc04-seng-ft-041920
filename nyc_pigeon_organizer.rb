@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(pigeon_data)
       array_value.each do |names|
         pigeon_list[names] = {}
         pigeon_list[names][cgl_keys] = []
+        pigeon_list[names][cgl_keys] << keys.to_s
       end
       
     end
