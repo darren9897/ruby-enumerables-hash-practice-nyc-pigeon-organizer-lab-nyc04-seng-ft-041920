@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(pigeon_data)
     cgl_values.each do |keys, array_value|
       array_value.each do |names|
         pigeon_list[names] = {}
-        pigeon_list[names][cgl_keys] = cgl_values
+        pigeon_list[names][cgl_keys] = []
       end
       
     end
